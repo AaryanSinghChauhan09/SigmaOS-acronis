@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos-acronis"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Contributors"]
+description = "SigmaOS acronis component"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "sigmaos_acronis"
+path = "src/lib.rs"
