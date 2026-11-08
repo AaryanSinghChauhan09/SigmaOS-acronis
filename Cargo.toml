@@ -1,10 +1,9 @@
 [package]
-name = "sigmaos-acronis"
+name = "sigmaos_acronis"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Contributors"]
-description = "SigmaOS acronis component"
-license = "MIT OR Apache-2.0"
+license = "MIT"
+description = "SigmaOS acronis component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_acronis"
