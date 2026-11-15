@@ -1,6 +1,6 @@
-use sigmaos_acronis::Component;
+use sigmaos_acronis::BackupManager;
 
 #[test]
 fn component_constructs() {
-    let _c = Component::new();
+    let _c = BackupManager::new("Test Backup");
 }
