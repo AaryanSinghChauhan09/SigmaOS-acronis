@@ -3,12 +3,12 @@ name = "SigmaOS-acronis"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "acronis component"
+description = "This crate is currently an empty no_std library scaffold. The only source beyond the crate declaration is a basic arithmetic test; no Acronis backup, recovery, storage, or security functionality is implemented."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
